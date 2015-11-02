@@ -1,0 +1,363 @@
+@font-face {
+font-family:MyriadPro;
+src:url(../fonts/MYRIADPRO-REGULAR.otf);
+}
+
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,a,img,strong,ul,li,form,label,table,tbody,thead,tr,th,td {
+margin:0;
+padding:0;
+}
+
+ul {
+list-style:none;
+}
+
+table {
+border-spacing:0;
+border-collapse:separate;
+width:100%;
+}
+
+body {
+background:#f1f4f9;
+color:#414a51;
+font-weight:400;
+font-size:16px;
+font-family:"Segoe UI", Arial, sans-serif;
+line-height:1.2;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-family:MyriadPro, Arial, sans-serif;
+line-height:1.1;
+}
+
+h4 {
+font-size:1.25em;
+padding:0 0 1em;
+}
+
+a {
+outline:none;
+color:#414a51;
+text-decoration:none;
+font-weight:inherit;
+}
+
+h1 a,h3 a,h4 a,h5 a,h6 a {
+outline:none;
+color:#4e5e6a;
+text-decoration:none;
+}
+
+img {
+max-width:100%;
+height:auto;
+}
+
+a:hover img {
+opacity:0.9;
+}
+
+.tk-container {
+position:relative;
+width:100%;
+}
+
+.tk-inner {
+position:relative;
+max-width:1360px;
+margin:0 auto;
+padding:0 20px;
+}
+
+#logo {
+position:absolute;
+top:-70px;
+left:20px;
+width:200px;
+box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.tk-header {
+position:relative;
+background:#7AC74F;
+padding:10px 0;
+}
+
+.tk-nav-wrapper {
+float:left;
+min-width:470px;
+margin:22px 0 0 250px;
+}
+
+.navbar > ul > li > a {
+font-family:MyriadPro;
+font-size:18px;
+}
+
+.tk-header-items-right {
+float:right;
+width:320px;
+}
+
+.tk-content {
+padding:20px;
+}
+
+.tk-main {
+width:750px;
+}
+
+.tk-main-section {
+clear:both;
+background-color:#FFF;
+box-sizing:border-box;
+}
+
+.navbar-default {
+background-color:#7AC74F;
+border-color:#7AC74F;
+}
+
+.tk-connect {
+float:right;
+width:252px;
+height:34px;
+margin:25px 30px 0 0;
+padding:0;
+}
+
+.tk-connect li {
+float:left;
+}
+
+.tk-connect li img {
+position:relative;
+display:block;
+width:34px;
+height:34px;
+outline:none;
+border-radius:50%;
+box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+margin:0 2px;
+}
+
+.tk-connect li img:hover {
+box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+top:-1px;
+left:-1px;
+}
+
+.tk-main-section-left {
+float:left;
+width:45%;
+padding:35px 10px 30px 40px;
+}
+
+.tk-main-section-right {
+float:right;
+}
+
+.tk-main-section h2 a {
+font-size:1.3em;
+}
+
+.tk-main-section h2 a:hover {
+text-decoration:none;
+}
+
+.tk-section-other {
+background-color:#FFF;
+margin:10px 0;
+padding:20px 0;
+}
+
+.tk-section-other h5 {
+font-size:16px;
+border-bottom:3px solid #F1F4F9;
+padding-bottom:10px;
+margin-bottom:10px;
+}
+
+.time-span {
+color:#FFA400;
+}
+
+.tk-videos {
+width:30%;
+padding-left:29px;
+float:right;
+}
+
+.tk-videos h6 {
+font-size:16px;
+margin:5px 0;
+}
+
+.tk-videos p {
+font-size:14px;
+}
+
+.tk-forum-posts {
+width:70%;
+float:right;
+padding:0 29px;
+}
+
+.tk-forum-posts a {
+color:#647993;
+font-weight:700;
+}
+
+.tk-forum-posts p {
+font-size:12px;
+margin-top:3px;
+}
+
+.tk-main-section p {
+line-height:1.5;
+margin-top:10px;
+font-size:1.05em;
+color:#414a51;
+}
+
+.tk-sidebar {
+width:520px;
+margin-left:10px;
+}
+
+.tk-open-courses {
+background:rgba(255,255,255,0.5);
+margin-bottom:20px;
+padding:20px;
+}
+
+.tk-future-courses {
+background:#FFF;
+padding-top:20px;
+}
+
+.tk-future-courses h4,.tk-future-courses td {
+margin-left:15px;
+margin-right:5px;
+}
+
+.tk-open-courses h4 {
+text-align:center;
+}
+
+.tk-future-courses h4 {
+font-size:18px;
+}
+
+.tk-footer {
+position:relative;
+bottom:0;
+width:100%;
+background:#7AC74F;
+padding:40px 0;
+}
+
+.tk-footer .tk-inner {
+overflow:hidden;
+margin:0 auto;
+padding:0 20px;
+}
+
+.tk-footer nav {
+float:left;
+width:600px;
+padding-left:29px;
+box-sizing:border-box;
+}
+
+.tk-footer ul {
+float:left;
+width:25%;
+}
+
+.tk-footer ul li {
+display:block;
+line-height:25px;
+}
+
+.tk-footer ul li a {
+color:#fff;
+text-decoration:none;
+white-space:nowrap;
+font-weight:700;
+}
+
+.tk-footer ul li a:hover {
+color:#056495;
+}
+
+#sb-search {
+position:absolute;
+right:20px;
+}
+
+.searchbox {
+margin-top:25px;
+position:relative;
+min-width:50px;
+width:0;
+height:50px;
+float:right;
+overflow:hidden;
+-webkit-transition:width .3s;
+-moz-transition:width .3s;
+-ms-transition:width .3s;
+-o-transition:width .3s;
+transition:width .3s;
+}
+
+.searchbox-input {
+top:0;
+right:0;
+border:0;
+outline:0;
+width:100%;
+height:40px;
+font-size:20px;
+margin:0;
+padding:0 55px 0 20px;
+}
+
+.searchbox-icon,.searchbox-submit {
+width:50px;
+height:50px;
+display:block;
+position:absolute;
+top:0;
+font-family:verdana;
+font-size:22px;
+right:0;
+border:0;
+outline:0;
+line-height:50px;
+text-align:center;
+cursor:pointer;
+background:#7AC74F;
+margin:-5px 0 0;
+padding:0;
+}
+
+a:focus,.tk-forum-posts a:hover {
+color:#2D3E4A;
+}
+
+.navbar-nav > li > .dropdown-menu,.searchbox-open {
+width:100%;
+}
+
+.dropdown-menu li,.tk-forum-posts li {
+margin-bottom:10px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a {
+color:#fff;
+}
