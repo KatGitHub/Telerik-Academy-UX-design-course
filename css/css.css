@@ -34,11 +34,6 @@ font-family:MyriadPro, "Segoe UI", Arial, sans-serif;
 line-height:1.1;
 }
 
-h4 {
-font-size:1.25em;
-padding:0 0 1em;
-}
-
 a {
 outline:none;
 color:#414a51;
@@ -61,6 +56,10 @@ a:hover img {
 opacity:0.9;
 }
 
+h4, h5 {
+	margin-bottom: 10px;
+}
+
 .tk-container {
 position:relative;
 width:100%;
@@ -81,6 +80,24 @@ width:200px;
 box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+.btn-search {
+	margin-top: 20px;
+	padding: 10px 40px;
+}
+
+.li-calendar {
+    float: right;
+    margin-top: 15px;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background-color: #fff;
+}
+
+.navbar h5 {
+	font-size: 16px;
+}
+
 .tk-header {
 position:relative;
 background:#7AC74F;
@@ -93,9 +110,32 @@ min-width:470px;
 margin:22px 0 0 250px;
 }
 
+.glyphicon {
+	margin-right: 8px;
+}
+
+.glyphicon-tag {
+	margin-right: 4px;
+}
+
 .navbar > ul > li > a {
 font-family:MyriadPro, "Segoe UI";
 font-size:18px;
+}
+
+.panel-group {
+    font-size: 16px;
+}
+
+.panel-body {
+    padding: 10px 5px 10px 20px;
+    margin-top: 5px;
+    font-size: 16px;
+    background-color: #F8F1FF;
+}
+
+.panel-collapse {
+	margin-top: 10px;
 }
 
 .tk-header-items-right {

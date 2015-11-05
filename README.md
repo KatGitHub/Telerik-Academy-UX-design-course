@@ -17,5 +17,13 @@ Items to redesign:
 
 Home page
 
-![view1](https://cloud.githubusercontent.com/assets/8322332/10894993/57760956-81ba-11e5-9626-4f1b91c31243.png)
+![view1](https://cloud.githubusercontent.com/assets/8322332/10972938/1ffe08e4-83e4-11e5-8d36-b810abb55ed9.png)
+
+Navigation menu
+
+![view2](https://cloud.githubusercontent.com/assets/8322332/10973030/6ddbf8be-83e4-11e5-97fd-ad2ee7c54bd1.png)
+
+![view3](https://cloud.githubusercontent.com/assets/8322332/10973080/a1663df2-83e4-11e5-800b-14fd3d64b3f4.png)
+
+![view4](https://cloud.githubusercontent.com/assets/8322332/10973138/c4b61638-83e4-11e5-9bb3-e2e2ea5c72de.png)
 
