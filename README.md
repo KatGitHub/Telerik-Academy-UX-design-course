@@ -23,7 +23,7 @@ Navigation menu
 
 ![view2](https://cloud.githubusercontent.com/assets/8322332/10973030/6ddbf8be-83e4-11e5-97fd-ad2ee7c54bd1.png)
 
-![image](https://cloud.githubusercontent.com/assets/8322332/11008208/b382a9dc-84d7-11e5-8677-355a81a4ba5c.png)
+![view3](https://cloud.githubusercontent.com/assets/8322332/11008308/5071b2ba-84d8-11e5-9832-3e37c30aaa36.png)
 
 ![view4](https://cloud.githubusercontent.com/assets/8322332/10973138/c4b61638-83e4-11e5-9bb3-e2e2ea5c72de.png)
 
