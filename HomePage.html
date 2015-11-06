@@ -139,114 +139,44 @@
                   <div class="yamm-content">
                     <div class="row">
                       <div class="col-sm-6">
-                        <h5>
-                          <span class="glyphicon glyphicon-search"></span>Търси в категории</h5>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> Програмиране
-                          </label>
-                        </div>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> Софтуерни технологии
-                          </label>
-                        </div>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" checked> Уеб дизайн и UI технологии
-                          </label>
-                        </div>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> Telerik Academy Plus
-                          </label>
-                        </div>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> Училищна академия
-                          </label>
-                        </div>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> Алго академия
-                          </label>
-                        </div>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> Детска академия
-                          </label>
-                        </div>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> Личностни и бизнес умения
-                          </label>
-                        </div>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> Семинари
-                          </label>
-                        </div>
-                        <h5>За година</h5>
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox"> 2010
-                              </label>
-                            </div>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox"> 2011
-                              </label>
-                            </div>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox"> 2012
-                              </label>
-                            </div>
+                        <h5><span class="glyphicon glyphicon-search"></span>Търси в категории</h5>
+                        <div class="search-input-category">
+                          <div class="checkbox">
+                            <label><input type="checkbox">Програмиране</label>
                           </div>
-                          <div class="col-sm-6">
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox"> 2013
-                              </label>
-                            </div>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox"> 2014
-                              </label>
-                            </div>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" checked> 2015
-                              </label>
-                            </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox">Софтуерни технологии</label>
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox">Уеб дизайн и UI технологии</label>
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox">Telerik Academy Plus</label>
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox">Училищна академия</label>
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox">Алго академия</label>
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox">Детска академия</label>
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox">Личностни и бизнес умения</label>
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox">Семинари</label>
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox" id="select-all">Избери всички</label>
                           </div>
                         </div>
                         <button type="submit" class="btn btn-primary btn-lg btn-search">Търси!</button>
                       </div>
-                      <div class="col-sm-6 search-results">
-                        <h5>
-                          <span class="glyphicon glyphicon-list"></span>Намерени курсове:</h5>
-                        <ul>
-                          <li>
-                            <a href="#">HTML основи - април 2015</a>
-                          </li>
-                          <li>
-                            <a href="#">CSS стилизиране - април-май 2015</a>
-                          </li>
-                          <li>
-                            <a href="#">JavaScript - основи 2015</a>
-                          </li>
-                          <li>
-                            <a href="#">JavaScript ООП 2015</a>
-                          </li>
-                          <li>
-                            <a href="#">JavaScript UI и DOM</a>
-                          </li>
-                          <li>
-                            <a href="#">JavaScript приложения 2015</a>
-                          </li>
+                      <div class="col-sm-6">                        
+                        <ul class="search-results">
+                        Моля, изберете категория
                         </ul>
                       </div>
                     </div>
@@ -538,12 +468,22 @@
   </div>
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="js/lodash.js"></script>
+  <script src="https://bs-static.cdn.telerik.com/1.5.7/everlive.all.js"></script>
   <script>
   $(document).on('click', '.yamm .dropdown-menu', function(e) {
     e.stopPropagation()
   })
   </script>
+  <script>
+  $(document).ready(function(){ 
+    $("#select-all").change(function(){
+      $("input[type='checkbox']").prop('checked', $(this).prop("checked"));
+      });
+  });
+  </script>
   <script src="js/search-box.js"></script>
+  <script src="js/search-courses.js"></script>
 </body>
 
 </html>

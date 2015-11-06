@@ -57,7 +57,7 @@ opacity:0.9;
 }
 
 h4, h5 {
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 .tk-container {
@@ -83,6 +83,14 @@ box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 .btn-search {
 	margin-top: 20px;
 	padding: 10px 40px;
+}
+
+.search-results {
+	font-size: 14px;
+	max-height: 350px;
+	overflow-y: auto;
+	background-color: whitesmoke;
+	padding: 10px;
 }
 
 .li-calendar {
@@ -396,6 +404,10 @@ width:100%;
 
 .dropdown-menu li,.tk-forum-posts li {
 margin-bottom:10px;
+}
+
+.search-results li {
+	margin-bottom: 20px;
 }
 
 .navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a {
