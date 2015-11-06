@@ -21,7 +21,7 @@
 			}
 		};
 
-		var url = 'https://api.everlive.com/v1/cY1MfyFqnit8iGSj/Courses?filter=' + JSON.stringify(filter);
+		var url = 'http://api.everlive.com/v1/cY1MfyFqnit8iGSj/Courses?filter=' + JSON.stringify(filter);
 
 		$.ajax({
 			url: url,
