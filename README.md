@@ -12,7 +12,7 @@ Items to redesign:
 1. course page (example: [http://telerikacademy.com/Courses/Courses/Details/257](http://telerikacademy.com/Courses/Courses/Details/257))
 
 
-[**DEMO**](http://rawgit.com/KatGitHub/UX-design-course/master/HomePage.html)
+[**DEMO**](http://rawgit.com/KatGitHub/UX-design-course/master/index.html)
 
 
 Home page
