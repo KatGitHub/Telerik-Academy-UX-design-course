@@ -290,7 +290,7 @@ bottom:0;
 width:100%;
 background:#7AC74F;
 margin-top:30px;
-padding:40px 0;
+padding:40px 0 10px 0;
 }
 
 .tk-footer .tk-inner {
@@ -310,7 +310,7 @@ display:block;
 line-height:20px;
 }
 
-.tk-footer ul li a {
+.tk-footer a {
 color:#F7FFF6;
 text-decoration:none;
 font-weight:500;
@@ -318,8 +318,13 @@ font-size:14px;
 text-shadow:1px 1px 0 rgba(0,0,0,0.4);
 }
 
+.tk-footer div > a {
+font-size:12px;
+text-shadow:none;
+}
+
 .tk-footer ul li a:hover {
-color:#5B616A;
+color:#00010C;
 text-shadow:none;
 }
 
