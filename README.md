@@ -1,5 +1,7 @@
 # Course final project #
 
+[**DEMO**](http://rawgit.com/KatGitHub/UX-design-course/master/index.html)
+
 **Project description:**
 
 Present UX and UI design ideas for [telerikacademy.com](http://telerikacademy.com) website.
@@ -11,9 +13,9 @@ Items to redesign:
 1. archive and help submenus
 1. course page (example: [http://telerikacademy.com/Courses/Courses/Details/257](http://telerikacademy.com/Courses/Courses/Details/257))
 
+**Project implementation:**
 
-[**DEMO**](http://rawgit.com/KatGitHub/UX-design-course/master/index.html)
-
+Dependencies: [jQuery](http://jquery.com/), [Bootstrap](http://getbootstrap.com/), [Telerik Backend Services](http://www.telerik.com/backend-services), [Lodash](http://lodash.com/).
 
 Home page
 
