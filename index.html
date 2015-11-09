@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Софтуерна академия на Телерик</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/yamm.css" />
   <link rel="stylesheet" type="text/css" href="css/css.css" />
   <link rel="shortcut icon" href="images/favicon.ico" />
@@ -139,7 +139,8 @@
                   <div class="yamm-content">
                     <div class="row">
                       <div class="col-sm-6">
-                        <h5><span class="glyphicon glyphicon-search"></span>Търси в категории</h5>
+                        <h5>
+                          <span class="glyphicon glyphicon-search"></span>Търси в категории</h5>
                         <div class="search-input-category">
                           <div class="checkbox">
                             <label><input type="checkbox">Програмиране</label>
@@ -174,9 +175,9 @@
                         </div>
                         <button type="submit" class="btn btn-primary btn-lg btn-search">Търси!</button>
                       </div>
-                      <div class="col-sm-6">                        
+                      <div class="col-sm-6">
                         <ul class="search-results">
-                        Моля, изберете категория
+                          Моля, изберете категория
                         </ul>
                       </div>
                     </div>
@@ -306,7 +307,7 @@
       <div class="clearfix"></div>
     </header>
     <div class="tk-content">
-      <div class="tk-main pull-left" role="main">
+      <div class="tk-main pull-left">
         <div class="tk-main-section">
           <div class="tk-main-section-left">
             <h2>
@@ -316,109 +317,158 @@
           </div>
           <div class="tk-main-section-right">
             <a href="">
-              <img width="400" src="images/foto.jpg" alt="avademy" />
+              <img width="400" src="images/foto.jpg" alt="academy" />
             </a>
           </div>
           <div class="clearfix"></div>
         </div>
         <div class="tk-section-other">
-          <div class="tk-forum-posts">
-            <h5>Последни форум постове:</h5>
-            <ul>
-              <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-pushpin"></span>[DSA] Намери си съотборник за отборната работа</a>
-                <p>
-                  в
-                  <a href="#"> Структури данни и алгоритми</a>
-                  <span class="time-span">преди 21 часа</span>
-                </p>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-pushpin"></span>Резултати от курса по бази данни 2015</a>
-                <p>
-                  в
-                  <a href="#"> Databases</a>
-                  <span class="time-span"> преди един ден</span>
-                </p>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-pushpin"></span>Ориентировъчна програма до края на академията </a>
-                <p>
-                  в
-                  <a href="#">Важни съобщения</a>
-                  <span class="time-span">преди 4 дни</span>
-                </p>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-pushpin"></span>Съвети за разработчици (spoiler: хумор)</a>
-                <p>
-                  в
-                  <a href="#">Други</a>
-                  <span class="time-span">преди 4 дни</span>
-                </p>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-pushpin"></span>[DSA] Workshop - Jedi Meditation</a>
-                <p>
-                  в
-                  <a href="#">Структури данни и алгоритми</a>
-                  <span class="time-span">преди 5 дни</span>
-                </p>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-pushpin"></span>AntiCheat за Linux</a>
-                <p>
-                  в
-                  <a href="#">Софтуерна академия</a>
-                  <span class="time-span">преди 6 дни</span>
-                </p>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-pushpin"></span>Домашно в BGCoder.com</a>
-                <p>
-                  в
-                  <a href="#">Важни съобщения</a>
-                  <span class="time-span">преди 6 дни</span>
-                </p>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-pushpin"></span>Ориентировъчна програма до края на академията</a>
-                <p>
-                  в
-                  <a href="#">Важни съобщения</a>
-                  <span class="time-span">преди 7 дни</span>
-                </p>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-pushpin"></span>книга за javascript</a>
-                <p>
-                  в
-                  <a href="#">JavaScript Fundamentals</a>
-                  <span class="time-span">преди 8 дни</span>
-                </p>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-pushpin"></span>[DSA] Recursion Homework</a>
-                <p>
-                  в
-                  <a href="#">Структури данни и алгоритми</a>
-                  <span class="time-span">преди 10 дни</span>
-                </p>
-              </li>
-            </ul>
-            <div class="pull-right">
-              <span><a href="#">виж всички</a></span>
+          <div class="tk-section-other-right">
+            <div class="forum-posts">
+              <h5>Последни форум постове:</h5>
+              <ul>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-pushpin"></span>[DSA] Намери си съотборник за отборната работа</a>
+                  <p>
+                    в
+                    <a href="#"> Структури данни и алгоритми</a>
+                    <span class="time-span">преди 21 часа</span>
+                  </p>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-pushpin"></span>Резултати от курса по бази данни 2015</a>
+                  <p>
+                    в
+                    <a href="#"> Databases</a>
+                    <span class="time-span"> преди един ден</span>
+                  </p>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-pushpin"></span>Ориентировъчна програма до края на академията </a>
+                  <p>
+                    в
+                    <a href="#">Важни съобщения</a>
+                    <span class="time-span">преди 4 дни</span>
+                  </p>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-pushpin"></span>Съвети за разработчици (spoiler: хумор)</a>
+                  <p>
+                    в
+                    <a href="#">Други</a>
+                    <span class="time-span">преди 4 дни</span>
+                  </p>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-pushpin"></span>[DSA] Workshop - Jedi Meditation</a>
+                  <p>
+                    в
+                    <a href="#">Структури данни и алгоритми</a>
+                    <span class="time-span">преди 5 дни</span>
+                  </p>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-pushpin"></span>AntiCheat за Linux</a>
+                  <p>
+                    в
+                    <a href="#">Софтуерна академия</a>
+                    <span class="time-span">преди 6 дни</span>
+                  </p>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-pushpin"></span>Домашно в BGCoder.com</a>
+                  <p>
+                    в
+                    <a href="#">Важни съобщения</a>
+                    <span class="time-span">преди 6 дни</span>
+                  </p>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-pushpin"></span>Ориентировъчна програма до края на академията</a>
+                  <p>
+                    в
+                    <a href="#">Важни съобщения</a>
+                    <span class="time-span">преди 7 дни</span>
+                  </p>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-pushpin"></span>книга за javascript</a>
+                  <p>
+                    в
+                    <a href="#">JavaScript Fundamentals</a>
+                    <span class="time-span">преди 8 дни</span>
+                  </p>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="glyphicon glyphicon-pushpin"></span>[DSA] Recursion Homework</a>
+                  <p>
+                    в
+                    <a href="#">Структури данни и алгоритми</a>
+                    <span class="time-span">преди 10 дни</span>
+                  </p>
+                </li>
+              </ul>
+              <div class="pull-right">
+                <span>
+                  <a href="#">виж всички</a>
+                </span>
+              </div>
             </div>
+            <div class="contests">
+              <h5>Cъстезания в BGCODER:</h5>
+              <ul>
+                <li>Предстоящи</li>
+                <li>Няма състезания</li>
+              </ul>              
+              <ul>
+                <li>Последни</li>
+                <li>
+                  <p>
+                    <a href="#">Data structures and algorithms - Workshop 2</a>
+                  </p>
+                  <p>Ended: 09/11/2015 10:00:00</p>
+                </li>
+                <li>
+                  <p>
+                    <a href="#">Data structures and algorithms - Workshop 1</a>
+                  </p>
+                  <p>Ended: 06/11/2015 10:00:00</p>
+                </li>
+                <li>
+                  <p>
+                    <a href="#">Telerik Algo Academy @ October 2015</a>
+                  </p>
+                  <p>Ended: 15/10/2015 20:00:00</p>
+                </li>
+                <li>
+                  <p>
+                    <a href="#">JavaScript Applications - 04. Underscore.js Overview</a>
+                  </p>
+                  <p>Ended: 09/09/2015 15:00:00</p>
+                </li>
+                <li>
+                  <p>
+                    <a href="#">JavaScript UI & DOM - 10. jQuery Plugins</a>
+                  </p>
+                  <p>Ended: 06/08/2015 23:30:00</p>
+                </li>
+              </ul>
+              <div class="pull-right">
+                <span>
+                  <a href="#">виж всички</a>
+                </span>
+              </div>
+            </div>            
           </div>
           <div class="tk-videos">
             <h5>Последни видео материали:</h5>
@@ -431,7 +481,8 @@
                   <a href="#">Рекурсия</a>
                 </h6>
                 <p>
-                  Курс: <a href="">Структури от данни и алгоритми 2015</a>
+                  Курс:
+                  <a href="">Структури от данни и алгоритми 2015</a>
                 </p>
                 <p>
                   Лектор: Евлоги Христов
@@ -445,7 +496,8 @@
                   <a href="#">Имплементация на BFS</a>
                 </h6>
                 <p>
-                  Курс: <a href="">Структури от данни и алгоритми 2015</a>
+                  Курс:
+                  <a href="">Структури от данни и алгоритми 2015</a>
                 </p>
                 <p>
                   Лектор: Евлоги Христов
@@ -459,7 +511,8 @@
                   <a href="#">Stools - Recursion and Data structures - Workshop</a>
                 </h6>
                 <p>
-                  Курс: <a href="">Data structures and algorithms</a>
+                  Курс:
+                  <a href="">Data structures and algorithms</a>
                 </p>
                 <p>
                   Лектор: Кристиян Цъклев
@@ -473,7 +526,8 @@
                   <a href="#">Fibonacci - Recursion and Data structures - Workshop</a>
                 </h6>
                 <p>
-                  Курс: <a href="">Data structures and algorithms</a>
+                  Курс:
+                  <a href="">Data structures and algorithms</a>
                 </p>
                 <p>
                   Лектор: Кристиян Цъклев
@@ -487,7 +541,8 @@
                   <a href="#">Въведение в ASP.NET Web API</a>
                 </h6>
                 <p>
-                  Курс: <a href="">Web Services & Cloud</a>
+                  Курс:
+                  <a href="">Web Services & Cloud</a>
                 </p>
                 <p>
                   Лектор: Ивайло Кенов
@@ -495,7 +550,9 @@
               </li>
             </ul>
             <div class="pull-right">
-              <span><a href="#">виж всички</a></span>
+              <span>
+                <a href="#">виж всички</a>
+              </span>
             </div>
           </div>
           <div class="clearfix"></div>
@@ -565,73 +622,171 @@
       <div class="tk-inner">
         <nav>
           <ul>
-            <li><h4>Софтуерна академия</h4></li>
-            <li><a href="">За Софтуерната академия</a></li>
-            <li><a href="">Учебен план</a></li>
-            <li><a href="">Сертификати</a></li>
-            <li><a href="">Прием</a></li>
-            <li><a href="">Кандидатствай</a></li>
-            <li><a href="">Приемен изпит</a></li>
-            <li><a href="">Често задавани въпроси</a></li>
+            <li>
+              <h4>Софтуерна академия</h4>
+            </li>
+            <li>
+              <a href="">За Софтуерната академия</a>
+            </li>
+            <li>
+              <a href="">Учебен план</a>
+            </li>
+            <li>
+              <a href="">Сертификати</a>
+            </li>
+            <li>
+              <a href="">Прием</a>
+            </li>
+            <li>
+              <a href="">Кандидатствай</a>
+            </li>
+            <li>
+              <a href="">Приемен изпит</a>
+            </li>
+            <li>
+              <a href="">Често задавани въпроси</a>
+            </li>
           </ul>
           <ul>
-            <li><h4>Kурсове</h4></li>
-            <li><a href="">За курсовете</a></li>
-            <li><a href="">Програмиране</a></li>
-            <li><a href="">Уеб дизайн и UI технологии</a></li>
-            <li><a href="">Софтуерни технологии</a></li>
-            <li><a href="">Осигуряване качеството на софтуера</a></li>
-            <li><a href="">Външни курсове</a></li>
-            <li><a href="">Често задавани въпроси</a></li>
+            <li>
+              <h4>Kурсове</h4>
+            </li>
+            <li>
+              <a href="">За курсовете</a>
+            </li>
+            <li>
+              <a href="">Програмиране</a>
+            </li>
+            <li>
+              <a href="">Уеб дизайн и UI технологии</a>
+            </li>
+            <li>
+              <a href="">Софтуерни технологии</a>
+            </li>
+            <li>
+              <a href="">Осигуряване качеството на софтуера</a>
+            </li>
+            <li>
+              <a href="">Външни курсове</a>
+            </li>
+            <li>
+              <a href="">Често задавани въпроси</a>
+            </li>
           </ul>
           <ul>
-            <li><h4>Училищна академия</h4></li>
-            <li><a href="">За Училищната академия</a></li>
-            <li><a href="">Сезон 2015-2016</a></li>
-            <li><a href="">Сезон 2014-2015</a></li>
-            <li><a href="">Сезон 2013-2014</a></li>
-            <li><a href="">Лектори</a></li>
-            <li><a href="">Инфографика</a></li>
-            <li><a href="">Често задавани въпроси</a></li>
+            <li>
+              <h4>Училищна академия</h4>
+            </li>
+            <li>
+              <a href="">За Училищната академия</a>
+            </li>
+            <li>
+              <a href="">Сезон 2015-2016</a>
+            </li>
+            <li>
+              <a href="">Сезон 2014-2015</a>
+            </li>
+            <li>
+              <a href="">Сезон 2013-2014</a>
+            </li>
+            <li>
+              <a href="">Лектори</a>
+            </li>
+            <li>
+              <a href="">Инфографика</a>
+            </li>
+            <li>
+              <a href="">Често задавани въпроси</a>
+            </li>
           </ul>
           <ul>
-            <li><h4>Алго академия</h4></li>
-            <li><a href="">За Алго академията</a></li>
-            <li><a href="">Сезон 2015-2016</a></li>
-            <li><a href="">Сезон 2014-2015</a></li>
-            <li><a href="">Сезон 2013-2014</a></li>
-            <li><a href="">Лектори</a></li>
-            <li><a href="">Aрхив</a></li>
-            <li><a href="">Често задавани въпроси</a></li>
+            <li>
+              <h4>Алго академия</h4>
+            </li>
+            <li>
+              <a href="">За Алго академията</a>
+            </li>
+            <li>
+              <a href="">Сезон 2015-2016</a>
+            </li>
+            <li>
+              <a href="">Сезон 2014-2015</a>
+            </li>
+            <li>
+              <a href="">Сезон 2013-2014</a>
+            </li>
+            <li>
+              <a href="">Лектори</a>
+            </li>
+            <li>
+              <a href="">Aрхив</a>
+            </li>
+            <li>
+              <a href="">Често задавани въпроси</a>
+            </li>
           </ul>
           <ul>
-            <li><h4>Семинари</h4></li>
-            <li><a href="">За семинарите</a></li>
-            <li><a href="">Софтуерно инженерство</a></li>
-            <li><a href="">Други</a></li>
-            <li><a href="">Състезания</a></li>
+            <li>
+              <h4>Семинари</h4>
+            </li>
+            <li>
+              <a href="">За семинарите</a>
+            </li>
+            <li>
+              <a href="">Софтуерно инженерство</a>
+            </li>
+            <li>
+              <a href="">Други</a>
+            </li>
+            <li>
+              <a href="">Състезания</a>
+            </li>
           </ul>
           <ul>
-            <li><h4>За нас</h4></li>
-            <li><a href="">Новини</a></li>
-            <li><a href="">За Академията на Телерик</a></li>
-            <li><a href="">За Телерик</a></li>
-            <li><a href="">Лицензи</a></li>
-            <li><a href="">Галерия</a></li>
-            <li><a href="">Telerik Academy банери</a></li>
-            <li><a href="">Форум</a></li>
-            <li><a href="">Студентска система</a></li>
-            <li><a href="">Условия за ползване на сайта</a></li>
-            <li><a href="">Контакти</a></li>
-          </ul>         
+            <li>
+              <h4>За нас</h4>
+            </li>
+            <li>
+              <a href="">Новини</a>
+            </li>
+            <li>
+              <a href="">За Академията на Телерик</a>
+            </li>
+            <li>
+              <a href="">За Телерик</a>
+            </li>
+            <li>
+              <a href="">Лицензи</a>
+            </li>
+            <li>
+              <a href="">Галерия</a>
+            </li>
+            <li>
+              <a href="">Telerik Academy банери</a>
+            </li>
+            <li>
+              <a href="">Форум</a>
+            </li>
+            <li>
+              <a href="">Студентска система</a>
+            </li>
+            <li>
+              <a href="">Условия за ползване на сайта</a>
+            </li>
+            <li>
+              <a href="">Контакти</a>
+            </li>
+          </ul>
         </nav>
       </div>
-      <div><a href="https://github.com/KatGitHub/UX-design-course">Open source project</a></div>
+      <div>
+        <a href="https://github.com/KatGitHub/UX-design-course">Open source project</a>
+      </div>
     </footer>
   </div>
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/lodash.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
   <script src="https://bs-static.cdn.telerik.com/1.5.7/everlive.all.js"></script>
   <script>
   $(document).on('click', '.yamm .dropdown-menu', function(e) {
@@ -639,10 +794,10 @@
   })
   </script>
   <script>
-  $(document).ready(function(){ 
-    $("#select-all").change(function(){
+  $(document).ready(function() {
+    $("#select-all").change(function() {
       $("input[type='checkbox']").prop('checked', $(this).prop("checked"));
-      });
+    });
   });
   </script>
   <script src="js/search-box.js"></script>

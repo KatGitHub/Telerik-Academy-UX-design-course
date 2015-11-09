@@ -233,19 +233,35 @@ font-size:14px;
 margin-bottom:5px;
 }
 
-.tk-forum-posts {
+.tk-section-other-right {
 width:70%;
 float:right;
 padding:0 29px;
 }
 
-.tk-forum-posts span a,.tk-videos span a {
+.tk-section-other-right span a,.tk-videos span a {
 font-size:14px;
 }
 
-.tk-forum-posts p {
+.forum-posts {
+margin-bottom:80px;
+}
+
+.forum-posts p, .contests p {
 font-size:12px;
 margin-top:3px;
+}
+
+.contests ul {
+margin-bottom:20px;
+}
+
+.contests ul li:first-child {
+font-weight:500;
+}
+
+.contests p a {
+font-size:16px;
 }
 
 .tk-main-section p {
@@ -311,11 +327,10 @@ line-height:20px;
 }
 
 .tk-footer a {
-color:#F7FFF6;
+color:#fff;
 text-decoration:none;
 font-weight:500;
 font-size:14px;
-text-shadow:1px 1px 0 rgba(0,0,0,0.4);
 }
 
 .tk-footer div > a {
@@ -392,7 +407,7 @@ margin:-5px 0 0;
 padding:0;
 }
 
-a:focus,.tk-forum-posts a:hover {
+a:focus,.tk-section-other-right a:hover {
 color:#2D3E4A;
 }
 
@@ -400,7 +415,7 @@ color:#2D3E4A;
 width:100%;
 }
 
-.dropdown-menu li,.tk-forum-posts li {
+.dropdown-menu li,.tk-section-other-right li {
 margin-bottom:10px;
 }
 
@@ -421,7 +436,7 @@ float:left;
 margin-bottom:20px;
 }
 
-.tk-forum-posts a,.tk-videos span a {
+.tk-section-other-right a,.tk-videos span a,.contests a {
 color:#647993;
 font-weight:700;
 }
