@@ -4,12 +4,20 @@
 			NOTHING_FOUND_MESSAGE: 'Нищо не е намерено. Моля, пробвайте търсене в други категории.'
 		},
 		el = new Everlive(CONSTANTS.API_KEY),
-		courses = el.data('Courses');
+		courses = el.data('Courses'),
+		order,
+		$resultsEl = $('.search-results');
 
 	$(".btn-search").on("click", function() {
 		var $categories = $(".search-input-category").find('input:checked'),
 			categoriesArr = $.makeArray($categories),
 			categoriesNames = [];
+
+		$resultsEl.html('');
+		$('.alert-info').hide();
+		$('.glyphicon-refresh-animate').show();
+
+		order = $('.input-order').find('input:checked').attr('id');
 
 		_.every(categoriesArr, function(item) {
 			return categoriesNames.push($(item).parent().text())
@@ -30,6 +38,7 @@
 				"Authorization": CONSTANTS.API_KEY
 			},
 			success: function(data) {
+				$('.glyphicon-refresh-animate').hide();
 				showCourses(data.Result);
 			},
 			error: function(error) {
@@ -39,13 +48,10 @@
 	})
 
 	function showCourses(coursesArr) {
-		var $resultsEl = $('.search-results');
-		$resultsEl.html('');
-
 		if (coursesArr.length === 0) {
 			$resultsEl.append('<div class="alert alert-warning" role="alert">' + CONSTANTS.NOTHING_FOUND_MESSAGE + '</div>')
 		} else {
-			var coursesSorted = _.map(_.sortByOrder(coursesArr, ['Year', 'Name'], ['desc', 'asc']), 'Name');
+			var coursesSorted = _.map(_.sortByOrder(coursesArr, ['Year', 'Name'], [order, 'asc']), 'Name');
 
 			_.every(coursesSorted, function(item) {
 				return $('<li />')
@@ -53,6 +59,6 @@
 					.appendTo($resultsEl)
 			})
 		}
+		$resultsEl.show();
 	}
-
 }())

@@ -171,14 +171,27 @@
                           </div>
                           <div class="checkbox">
                             <label><input type="checkbox" id="select-all">Избери всички</label>
-                          </div>
+                          </div>                          
                         </div>
+                        <h5><span class="glyphicon glyphicon-sort-by-order"></span>Подреди по година</h5>
+                          <div class="input-order">
+                          <div class="radio">
+                            <label><input type="radio" name="optradio" id="desc" checked>Първо най-новите</label>
+                          </div>
+                          <div class="radio">
+                            <label><input type="radio" name="optradio" id="asc">Първо най-старите</label>
+                          </div>
+                          </div>
                         <button type="submit" class="btn btn-primary btn-lg btn-search">Търси!</button>
                       </div>
                       <div class="col-sm-6">
-                        <ul class="search-results">
+                        <div class="alert alert-info" role="alert">
                           Моля, изберете категория
+                        </div>
+                        <ul class="search-results">
+                          
                         </ul>
+                        <div class="center-block"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span></div>                        
                       </div>
                     </div>
                   </div>

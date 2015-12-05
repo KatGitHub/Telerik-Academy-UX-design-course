@@ -81,8 +81,9 @@ padding:10px 40px;
 }
 
 .search-results {
+display:none;
 font-size:14px;
-max-height:350px;
+max-height:450px;
 overflow-y:auto;
 background-color:whitesmoke;
 padding:10px;
@@ -407,6 +408,10 @@ margin:-5px 0 0;
 padding:0;
 }
 
+.search-input-category {
+	margin-bottom: 20px;
+}
+
 a:focus,.tk-section-other-right a:hover {
 color:#2D3E4A;
 }
@@ -439,4 +444,24 @@ margin-bottom:20px;
 .tk-section-other-right a,.tk-videos span a,.contests a {
 color:#647993;
 font-weight:700;
+}
+
+.glyphicon-refresh-animate {
+	position: absolute;
+	left: 150px;
+	top: 200px;
+	display: none;
+	font-size: 30px;
+  -animation: spin .7s infinite linear;
+  -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+  from { -webkit-transform: rotate(0deg);}
+  to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+  from { transform: scale(1) rotate(0deg);}
+  to { transform: scale(1) rotate(360deg);}
 }
